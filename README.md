@@ -1,4 +1,4 @@
-# NpgsqlCodeConfig
+# Npgsql Code-Based Configuration ❤
 
 Example console application for configuring Npgsql without a config.xml file
 
