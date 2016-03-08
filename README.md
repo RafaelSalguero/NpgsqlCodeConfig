@@ -8,6 +8,8 @@ Code first migrations was added and the user can choose to use it
 
 Usefull if you want to have all your configuration on a custom json or other file format
 
+**Check out the noMigrations branch if you are not interested on Code-First migrations at all**
+
 ###Dependencies
  - EntityFramework 6
  - Npgsql
