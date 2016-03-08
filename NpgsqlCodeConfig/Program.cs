@@ -26,6 +26,8 @@ namespace NpgsqlCodeConfig
         {
             Console.WriteLine("If the database doesn't exist it will be created!");
             Console.WriteLine();
+            if (Ask ("Enable migrations?", "yes") == "yes")
+                Db.ConfigureMigrations();
 
             //Generate connection string from user input
             var host = Ask("Host", "localhost");
